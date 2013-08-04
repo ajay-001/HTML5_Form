@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+  	<title>Your Company || Contact Us</title>
+  	<meta name="description" content="Contact Us Form">
+  	<meta name="author" content="">
+  	<link rel="stylesheet" href="css/style.css">
+  	<link rel="icon" 
+    	type="image/png" 
+      	href="favicon.ico.png">
+  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script> 
+	
+  	<!--[if IE]>
+  		<link rel="stylesheet" href="css/iestyle.css"> 
+		<script scr="js/jquery.pseudo.js"></script>	
+		<script src="js/columnizer/jquery.columnizer.min.js"></script>
+		<script src="js/iescript.js"></script> 	
+	<![endif]--> 
+	
+	<!-- html5 shiv -->	
+	<!--[if lt IE 9]><script src="js/html5shiv/dist/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+  	<header class="subHeader">
+		<h1>Contact us today! We'll get back to you as soon as possible. </h1>
+		<p>For more details or our executive support please fill this form : </p>
+	</header>	
+	<div id="grayBack">
+		<div id="key">
+			<img src="img/form/star.gif" alt="asterisk"/> REQUIRED field
+			<img src="img/form/cancel.png" alt="cancel image"/> INPUT is not yet valid
+			<img src="img/form/success.png" alt="success image"/> INPUT is valid
+		</div>
+		<form action="#" id="contactForm" method=post>
+			<label>
+				<span>First Name</span>
+				<input type="text" class="input_text" name="first_name" autofocus="autofocus" id="first_name" required placeholder="First Name"/>             
+			</label>          
+			<label>
+				<span>Concern Name</span>
+				<input type="text" class="input_text" name="concern_name" id="concern_name" required placeholder="Concern Name"/>             
+			</label>        
+			<label>
+				<span>Designation</span>				
+				<select class="input_text" name="designation" id="designation">
+  					<option value="blank"></option>
+  					<option value="IT Manager">IT Manager</option>
+ 					<option value="Purchase Manager">Purchase Manager</option>
+  					<option value="Finance Manager">Finance Manager</option>
+  					<option value="Director / CEO">Director / CEO</option>
+  					<option value="Admin Manager">Admin Manager</option>
+ 					<option value="IT Executive">IT Executive</option>
+  					<option value="Finance Executive">Finance Executive</option>
+  					<option value="Other">Other</option>
+				</select>              
+			</label>
+			<label>                
+				<span>Mobile (At least 10 digits without spaces)</span>                
+				<input id="mobile" class="input_text" type="tel" pattern="[0-9]{10,}" name="mobile" required placeholder="mobile phone number"/>             
+			</label>
+			<label>                
+				<span>Office Phone (At least 10 digits without spaces)</span>                
+				<input id="office" class="input_text" type="tel" pattern="[0-9]{10,}" name="office" required placeholder="office phone number"/>             
+			</label>
+			<!--[if IE]>
+		  		<br/><br/> 	
+			<![endif]--> 
+			<div id="noBreak">
+				<label>                
+					<span>Email</span>                
+					<input type="email" class="input_text" name="email" id="email" required placeholder="email address"/>             
+				</label>
+			</div>
+			<label>                
+				<span>Primary Address City</span>                
+				<input type="text" class="input_text" name="city" id="city" required placeholder="primary address city"/>             
+			</label>
+			<label>                 
+				<span>Requirements</span>                 
+				<textarea name="requirements" id="requirements"></textarea>                             
+			</label>
+			<input name="submit" id="submitButton" type="submit" value="Send Message" />                                      
+		</form>
+		<footer>&copy; Your Company 201*</footer>
+	</div>
+</body>
+</html>
