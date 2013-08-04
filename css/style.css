@@ -47,15 +47,15 @@ header.subHeader{
 }
 /*form*/
 #grayBack{
-	background-color:#4074a6;
+	background-color:#F2F2F2;
 	width:800px;
 	margin:auto;
 	margin-bottom:20px;
 	margin-top:40px;
 	padding:10px;
-	-moz-box-shadow: 0 0 10px #888;
-	-webkit-box-shadow: 0 0 10px#888;
-	box-shadow: 0 0 10px #888;
+	-moz-box-shadow: 0 0 5px #888;
+	-webkit-box-shadow: 0 0 5px#888;
+	box-shadow: 0 0 5px #888;
 }
 form {
 	width:800px;
