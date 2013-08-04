@@ -5,11 +5,13 @@ A Contact Form that Uses HTML5 Features to Create a Dynamic, Client-Side-Validat
 
 A Cross-Browser Compatible HTML5 Form That Shows Different Image Icons Based on the Validity of the Input.
 
-## States
+### States
 
-*Required* - Field is a Required Field
-*Invalid* - Input is Not Valid
-*Valid* - Input is Valid
+**Required** - Field is a Required Field
+
+**Invalid** - Input is Not Valid
+
+**Valid** - Input is Valid
 
 -----
 
